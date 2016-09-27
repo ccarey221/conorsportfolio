@@ -6,7 +6,7 @@ export default class DayPlanComp extends React.Component {
   render() {
     return (
         <div className="dayPlan">
-          <a target="_blank" href="http://www.dayplan.io/">
+          <a target="_blank" href="http://www.dayplan.us/">
             <img className="dayPlanImage"src={dayPlanImage} role="presentation" />
           </a>
         </div>
