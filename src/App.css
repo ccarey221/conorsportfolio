@@ -1,0 +1,43 @@
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.App-header, .App-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  height: 180px;
+  padding: 0;
+  margin: 0;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1.5;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
