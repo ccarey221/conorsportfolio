@@ -231,4 +231,21 @@ CSS for the CONTACT section
     height: 300px;
     margin-top: 140px;
   }
+
+  .about, .work, .education, .contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+  }
+
+  .educationContainer, .workContainer, .contactContainer {
+    margin: 48px 5%;
+  }
+
+  .about {
+    height: 300px;
+    margin-top: 120px;
+  }
+  .aboutContainer {
+    padding: 20px;
+  }
 }
