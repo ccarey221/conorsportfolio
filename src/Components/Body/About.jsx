@@ -13,10 +13,10 @@ export default class About extends React.Component {
           <p className='initialLine'>Hi! I'm a Full-stack developer based in San Francisco, CA.</p>
           <p>Interested in working together? <a href='mailto:cbowlercarey@gmail.com'>Email Me!</a></p>
           <div className='iconRow'>
-            <a href='mailto:cbowlercarey@gmail.com'><img src={emailIcon} /></a>
-            <a target='_blank' href='https://www.github.com/ccarey221'><img src={gitHubIcon} /></a>
-            <a target='_blank' href='https://linkedin.com/in/conor-carey'><img src={linkedInIcon} /></a>
-            <a target='_blank' href='https://angel.co/conor-carey-1'><img src={angelListIcon} /></a>
+            <a href='mailto:cbowlercarey@gmail.com'><img src={emailIcon} role='presentation' /></a>
+            <a target='_blank' href='https://www.github.com/ccarey221'><img src={gitHubIcon} role='presentation' /></a>
+            <a target='_blank' href='https://linkedin.com/in/conor-carey'><img src={linkedInIcon} role='presentation' /></a>
+            <a target='_blank' href='https://angel.co/conor-carey-1'><img src={angelListIcon} role='presentation' /></a>
           </div>
         </div>
       </div>

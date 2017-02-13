@@ -9,7 +9,7 @@
   color: white;
   background-color: #081c3f;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   z-index: 10;
   letter-spacing: .1em;
 }
@@ -31,12 +31,13 @@
 }
 
 .chapters a:active {
-  color: green;
+  color: lightblue;
 }
 
 .name {
   width: 33%;
   text-align: center;
+  font-weight: normal;
 }
 
 .contactLink {

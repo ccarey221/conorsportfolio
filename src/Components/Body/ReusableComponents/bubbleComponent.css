@@ -1,4 +1,4 @@
-.bubble, .mediumBubble, .largeBubble {
+.bubble, .mediumBubble, .largeBubble, .workBubble, .mediumWorkBubble, .largeWorkBubble  {
   background-color: #0f5d72;
   font-family: 'Open Sans';
   letter-spacing: .05em;
@@ -11,12 +11,16 @@
   font-size: .8em;
 }
 
-.mediumBubble {
+.mediumBubble, .mediumWorkBubble {
   width: 90px;
   height: 30px;
 }
 
-.largeBubble {
+.largeBubble, .largeWorkBubble {
   height: 30px;
   width: 110px;
+}
+
+.workBubble, .mediumWorkBubble, .largeWorkBubble {
+  background-color: #94cbda;
 }

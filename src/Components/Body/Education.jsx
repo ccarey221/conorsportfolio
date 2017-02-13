@@ -14,7 +14,8 @@ export default class Education extends React.Component {
             <p>Advanced Software Engineering Immersive Program<br/>
             Class of 2016</p>
             <br/>
-            <p>Union College, B.S. Computer Science, Economics<br/>
+            <h4>Union College</h4>
+            <p>B.S. Computer Science, Economics<br/>
             Class of 2015</p>
           </div>
           <div>
@@ -32,9 +33,17 @@ export default class Education extends React.Component {
           </div>
           <div>
             <h3>EXPERIENCE</h3>
+            <h4>MeterAid</h4>
+            <p>Worked directly with the CEO to design Python
+            scripts to collect and organize data from remote
+            Raspberry Pi Computers</p><br/>
+            <p>Set up notification system to share when a meter
+            maid approached user's car location</p>
           </div>
           <div>
             <h3>RELEVANT COURSEWORK</h3>
+            <h4>Data Visualizations</h4>
+            <p>Scraped web data using Python UrlLib2 and Beautiful Soup</p>
           </div>
         </div>
       </div>

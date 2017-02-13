@@ -60,8 +60,8 @@ CSS for the EDUCATION section
 *************************/
 
 .education {
-  height: 600px;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: white;
 }
 
@@ -91,7 +91,47 @@ CSS for the WORK section
 *************************/
 
 .work {
-  height: 600px;
-  width: 100%;
-  background-color: #0e5d72;
+  height: auto;
+  width: auto;
+  background-color: #0184a8;
+  padding-bottom: 20px;
+}
+
+.workContainer {
+  margin: 0 25%;
+  line-height: 25px;
+  color: white;
+}
+
+.workContainer h2 {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: .05em;
+  color: #94cbda;
+}
+
+.workContainer h3 {
+  font-size: 1.5em;
+  margin-bottom: 12px;
+  margin-top: 25px;
+  font-weight: normal;
+  color: white;
+}
+
+.workContainer h4 {
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: #94cbda;
+}
+
+.workContainer p {
+  font-size: .9em;
+  margin-bottom: 12px
+}
+
+.appSection {
+  border-bottom: 1px solid rgba(255,255,255,0.22);
+  padding-bottom: 40px;
 }
