@@ -9,7 +9,7 @@ export default class Work extends React.Component {
         <div className='workContainer'>
           <div className='appSection'>
             <h2>WORK</h2>
-            <a href='http://www.emblemar.com'><h3>Emblem</h3></a>
+            <a target='_blank' href='http://www.emblemar.com'><h3>Emblem</h3></a>
             <h4>Front End Software Engineer</h4>
             <p>Augmented reality art viewing experience. Built User Interface
             using React, Redux and React Router for faster page rendering. Led
@@ -23,7 +23,7 @@ export default class Work extends React.Component {
           </div>
           <hr />
           <div className='appSection'>
-            <a href='http://trendwave.herokuapp.com/'><h3>Trendwaves</h3></a>
+            <a target='_blank' href='http://trendwave.herokuapp.com/'><h3>Trendwaves</h3></a>
             <h4>Full-stack Software Engineer</h4>
             <p>Real-time global trend and sentiment analysis. Visuals built using D3 
             provide easy to understand breakdown of trend data.</p>
@@ -36,7 +36,7 @@ export default class Work extends React.Component {
             <Bubble className='workBubble' text='NodeJS' />
           </div>
           <div className='appSection'>
-            <a href='http://www.dayplan.us'><h3>DayPlan</h3></a>
+            <a target='_blank' href='http://www.dayplan.us'><h3>DayPlan</h3></a>
             <h4>Full-stack Software Engineer</h4>
             <p>App to make planning your day easier and more fun!</p>
             <Bubble className='workBubble' text='REACT' />
