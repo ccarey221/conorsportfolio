@@ -71,6 +71,7 @@ CSS for the EDUCATION section
   line-height: 25px;
 }
 
+
 .educationContainer h2 {
   margin-bottom: 48px;
   text-align: center;
@@ -189,4 +190,22 @@ CSS for the CONTACT section
   padding-bottom: 20px;
   width: 150px;
   height: 150px;
+}
+
+@media only screen and (max-width: 750px) {
+  .about, .work, .education, .contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+  }
+
+  .educationContainer, .workContainer, .contactContainer {
+    margin: 48px 5%;
+  }
+
+  .about {
+    height: 300px;
+  }
+  .aboutContainer {
+    padding: 20px;
+  }
 }

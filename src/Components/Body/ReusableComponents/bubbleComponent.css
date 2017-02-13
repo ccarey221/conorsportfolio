@@ -24,3 +24,17 @@
 .workBubble, .mediumWorkBubble, .largeWorkBubble {
   background-color: #4ca8c1;
 }
+
+@media only screen and (max-width: 750px) {
+  .bubble, .mediumBubble, .largeBubble, .workBubble, .mediumWorkBubble, .largeWorkBubble {
+    width: 80px;
+  }
+
+  .mediumBubble, .mediumWorkBubble {
+    width: 100px;
+  }
+
+  .largeBubble, .largeWorkBubble {
+    width: 120px;
+  }
+}
