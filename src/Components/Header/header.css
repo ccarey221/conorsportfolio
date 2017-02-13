@@ -80,3 +80,22 @@ a {
     padding-top: 10px;
   }
 }
+
+@media only screen and (max-device-width: 628px) {
+    .header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .chapters {
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px; 
+  }
+
+  .name {
+    width: 100%;
+    padding-top: 10px;
+  }
+}

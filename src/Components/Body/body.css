@@ -217,3 +217,18 @@ CSS for the CONTACT section
     margin-top: 140px;
   }
 }
+
+@-webkit-media all and (max-width:800px) { 
+    /* Safari and Chrome, if Chrome rule needed */
+  .about {
+    height: 300px;
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-device-width: 628px) {
+  .about {
+    height: 300px;
+    margin-top: 140px;
+  }
+}
