@@ -20,7 +20,7 @@ CSS for the ABOUT section
 .aboutContainer {
   position: absolute;
   height: 30%;
-  padding: 6%;
+  padding: 60px;
   padding-left: 20%;
   line-height: 50px;
 }
@@ -34,6 +34,7 @@ CSS for the ABOUT section
 
 .iconRow {
   margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 .iconRow a {
@@ -133,13 +134,13 @@ CSS for the WORK section
 
 .workContainer p {
   font-size: .9em;
-  margin-bottom: 12px
+  margin-bottom: 20px
 }
 
 .appSection {
   border-bottom: 1px solid rgba(255,255,255,0.22);
   padding-bottom: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 /************************
@@ -171,7 +172,6 @@ CSS for the CONTACT section
   line-height: 30px;
   font-weight: normal;
   font-size: 1.2em;
-  opacity: .6;
 }
 
 .me {

@@ -41,9 +41,19 @@ export default class Education extends React.Component {
             maid approached user's car location</p>
           </div>
           <div>
+            <h3>LEADERSHIP</h3>
+            <h4>Union College Entrepreneurship Organization</h4>
+            <p>President (Fall '14, Spring '15)</p>
+            <p>Vice President (Fall '13, Spring '14)</p>
+          </div>
+          <div>
             <h3>RELEVANT COURSEWORK</h3>
             <h4>Data Visualizations</h4>
             <p>Scraped web data using Python UrlLib2 and Beautiful Soup</p>
+            <h4>Data Structures</h4>
+            <p>Organized data in most effective and relavent ways</p>
+            <h4>Algorithms</h4>
+            <p>Analyzed and designed algorithms</p>
           </div>
         </div>
       </div>
