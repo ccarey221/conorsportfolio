@@ -1,4 +1,4 @@
-.about, .work, .education {
+.about, .work, .education, .contact {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -120,11 +120,16 @@ CSS for the WORK section
   color: white;
 }
 
+.workContainer h3:hover {
+  color: lightblue;
+}
+
 .workContainer h4 {
   font-weight: normal;
   margin-bottom: 12px;
   color: #94cbda;
 }
+
 
 .workContainer p {
   font-size: .9em;
@@ -134,4 +139,54 @@ CSS for the WORK section
 .appSection {
   border-bottom: 1px solid rgba(255,255,255,0.22);
   padding-bottom: 40px;
+  margin-bottom: 10px;
+}
+
+/************************
+
+CSS for the CONTACT section
+
+*************************/
+
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #081c3f;
+  color: white;
+  height: auto;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.contactContainer h2 {
+  padding-top: 48px;
+  margin-bottom: 23px;
+  opacity: .58;
+  letter-spacing: .05em;
+}
+
+.contactContainer p {
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 1.2em;
+  opacity: .6;
+}
+
+.me {
+  width: 50%;
+  margin: 0 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.myPic {
+  align-self: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  height: 150px;
 }
