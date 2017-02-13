@@ -21,7 +21,7 @@ CSS for the ABOUT section
 .aboutContainer {
   position: absolute;
   height: 30%;
-  padding: 10%;
+  padding: 3%;
   padding-left: 20%;
   line-height: 50px;
 }
