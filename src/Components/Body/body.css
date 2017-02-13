@@ -1,0 +1,84 @@
+#about, #work, #education {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/************************
+
+CSS for the ABOUT section
+
+*************************/
+
+#about {
+  display: flex;
+  position: relative;
+  top: 100px;
+  height: 400px;
+  width: 100%;
+  background-color: #081c3f;
+  color: white;
+}
+
+.aboutContainer {
+  position: absolute;
+  height: 30%;
+  padding: 10%;
+  padding-left: 20%;
+  line-height: 50px;
+}
+
+.initialLine {
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+}
+
+.iconRow {
+  margin-top: 5px;
+}
+
+.iconRow a {
+  margin: 10px;
+}
+
+.iconRow a:first-child {
+  margin: 0;
+  margin-right: 10px;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+/************************
+
+CSS for the EDUCATION section
+
+*************************/
+
+#education {
+  position: relative;
+  height: 600px;
+  top: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+
+/************************
+
+CSS for the WORK section
+
+*************************/
+
+#work {
+  position: relative;
+  height: 600px;
+  top: 100px;
+  width: 100%;
+  background-color: #0e5d72;
+}

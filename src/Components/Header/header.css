@@ -1,0 +1,62 @@
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #081c3f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  z-index: 10;
+  letter-spacing: .1em;
+}
+
+.chapters {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chapters a {
+  color: #838d9f;
+}
+
+.chapters a:hover {
+  color: white;
+}
+
+.chapters a:active {
+  color: green;
+}
+
+.name {
+  width: 33%;
+  text-align: center;
+}
+
+.contactLink {
+  display: table-cell;
+  width: 131px;
+  height: 47px;
+  background-color: white;
+  text-align: center;
+  border-radius: 3px;
+  color: #081c3f;
+  vertical-align: middle;
+}
+
+.contactLink:hover {
+  background-color: #838d9f;
+  color: white;
+}
+
+a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import trendWaveImage from './../images/trendWave.png';
+import './Emblem.css';
 
 export default class TrendComp extends React.Component {
   render() {
