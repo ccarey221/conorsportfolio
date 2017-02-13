@@ -11,8 +11,11 @@ class App extends Component {
       <div id='container'>
         <Header />
         <div className='contentContainer'>
+          <span className='anchor' id='about'></span>
           <About />
+          <span className='anchor' id='education'></span>
           <Education />
+          <span className='anchor' id='work'></span>
           <Work />
         </div>
           <div id='contact' className="App-footer">

@@ -8,7 +8,7 @@ import './body.css';
 export default class About extends React.Component {
   render() {
     return (
-      <div id='about'>
+      <div className='about'>
         <div className='aboutContainer'>
           <p className='initialLine'>Hi! I'm a Full-stack developer based in San Francisco, CA.</p>
           <p>Interested in working together? <a href='mailto:cbowlercarey@gmail.com'>Email Me!</a></p>
