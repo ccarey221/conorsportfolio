@@ -121,7 +121,7 @@ CSS for the WORK section
   color: white;
 }
 
-.workContainer h3:hover {
+.workContainer a h3:hover {
   color: lightblue;
 }
 
