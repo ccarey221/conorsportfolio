@@ -1,0 +1,22 @@
+.bubble, .mediumBubble, .largeBubble {
+  background-color: #0f5d72;
+  font-family: 'Open Sans';
+  letter-spacing: .05em;
+  border-radius: 20px;
+  color: white;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  width: 70px;
+  height: 30px;
+  font-size: .8em;
+}
+
+.mediumBubble {
+  width: 90px;
+  height: 30px;
+}
+
+.largeBubble {
+  height: 30px;
+  width: 110px;
+}
