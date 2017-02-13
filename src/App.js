@@ -10,9 +10,11 @@ class App extends Component {
     return (
       <div id='container'>
         <Header />
-        <About />
-        <Education />
-        <Work />
+        <div className='contentContainer'>
+          <About />
+          <Education />
+          <Work />
+        </div>
           <div id='contact' className="App-footer">
             <p>
                Conor Carey<br/>

@@ -10,12 +10,11 @@ CSS for the ABOUT section
 
 #about {
   display: flex;
-  position: relative;
-  top: 100px;
   height: 400px;
   width: 100%;
   background-color: #081c3f;
   color: white;
+  margin-top: 100px;
 }
 
 .aboutContainer {
