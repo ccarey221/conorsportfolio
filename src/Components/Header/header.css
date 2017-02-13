@@ -66,12 +66,13 @@ a {
   .header {
     display: flex;
     flex-direction: column;
+    height: auto;
   }
 
   .chapters {
     width: 100%;
     padding-top: 20px;
-    padding-bottom: 30px; 
+    margin-bottom: 20px; 
   }
 
   .name {
