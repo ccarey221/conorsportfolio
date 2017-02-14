@@ -85,21 +85,23 @@ a {
 }
 
 @media only screen and (max-device-width: 950px) {
-    .header {
+  .header {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-bottom: 30px;
   }
 
   .chapters {
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 10px;
     margin-bottom: 20px; 
   }
 
   .name {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 3em;
   }
 }

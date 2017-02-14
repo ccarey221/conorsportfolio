@@ -42,18 +42,15 @@
 
 @media only screen and (max-device-width: 628px) {
   .bubble, .mediumBubble, .largeBubble, .workBubble, .mediumWorkBubble, .largeWorkBubble {
-    width: 100px;
+    width: 140px;
+    height: 60px;
   }
 
   .mediumBubble, .mediumWorkBubble {
-    width: 120px;
+    width: 180px;
   }
 
   .largeBubble, .largeWorkBubble {
-    width: 140px;
-  }
-
-  .reactRouter {
-    height: 60px;
+    width: 260px;
   }
 }

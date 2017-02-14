@@ -245,8 +245,6 @@ CSS for the CONTACT section
 
 
 @media only screen and (max-device-width: 628px) {
-
-
   .iconRow {
     padding: 0 10%;
     }
@@ -258,7 +256,7 @@ CSS for the CONTACT section
 
   .about, .work, .education, .contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.7em;
+    font-size: 2.4em;
   }
 
   .educationContainer, .workContainer, .contactContainer {
@@ -268,14 +266,19 @@ CSS for the CONTACT section
 
   .aboutContainer {
     padding: 20px;
+    line-height: 60px;
   }
 
   .about {
-    height: 300px;
-    margin-top: 140px;
+    height: 450px;
+    margin-top: 170px;
+  }
+
+  .contactContainer p {
+    line-height: 60px;
   }
 
   .initialLine {
-    font-size: 30px;
+    font-size: 60px;
   }
 }
