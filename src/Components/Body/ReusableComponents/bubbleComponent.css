@@ -27,28 +27,36 @@
 
 @media only screen and (max-width: 950px) {
   .bubble, .mediumBubble, .largeBubble, .workBubble, .mediumWorkBubble, .largeWorkBubble {
-    width: 80px;
-  }
-
-  .mediumBubble, .mediumWorkBubble {
     width: 100px;
   }
 
-  .largeBubble, .largeWorkBubble {
+  .mediumBubble, .mediumWorkBubble {
     width: 120px;
+  }
+
+  .largeBubble, .largeWorkBubble {
+    width: 140px;
+  }
+
+  .reactRouter {
+    height: 60px;
   }
 }
 
 @media only screen and (max-device-width: 628px) {
   .bubble, .mediumBubble, .largeBubble, .workBubble, .mediumWorkBubble, .largeWorkBubble {
-    width: 80px;
-  }
-
-  .mediumBubble, .mediumWorkBubble {
     width: 100px;
   }
 
-  .largeBubble, .largeWorkBubble {
+  .mediumBubble, .mediumWorkBubble {
     width: 120px;
+  }
+
+  .largeBubble, .largeWorkBubble {
+    width: 140px;
+  }
+
+  .reactRouter {
+    height: 60px;
   }
 }

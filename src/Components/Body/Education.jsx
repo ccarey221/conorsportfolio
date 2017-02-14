@@ -36,7 +36,7 @@ export default class Education extends React.Component {
             <h4>MeterAid</h4>
             <p>Worked directly with the CEO to design Python
             scripts to collect and organize data from remote
-            Raspberry Pi Computers</p><br/>
+            Raspberry Pi Computers</p>
             <p>Set up notification system to share when a meter
             maid approached user's car location</p>
           </div>

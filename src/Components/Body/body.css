@@ -81,9 +81,20 @@ CSS for the EDUCATION section
 }
 
 .educationContainer h3 {
-  margin-bottom: 7px;
+  margin-bottom: 12px;
   margin-top: 25px;
   color: #081c3f;
+}
+
+.educationContainer h4 {
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: #0184a8;
+}
+
+.educationContainer p {
+  font-size: .9em;
+  margin-bottom: 20px
 }
 
 /************************
@@ -195,7 +206,7 @@ CSS for the CONTACT section
 @media only screen and (max-width: 950px) {
   .about, .work, .education, .contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .educationContainer, .workContainer, .contactContainer {
@@ -211,20 +222,14 @@ CSS for the CONTACT section
   }
 }
 
-@media only screen and (max-width: 628px) {
+@media only screen and (max-width: 950px) {
   .about {
     height: 300px;
-    margin-top: 90px;
+    margin-top: 140px;
   }
 }
 
-@-webkit-media all and (max-width:800px) { 
-    /* Safari and Chrome, if Chrome rule needed */
-  .about {
-    height: 300px;
-    margin-top: 90px;
-  }
-}
+
 
 @media only screen and (max-device-width: 628px) {
   .about {
@@ -234,7 +239,7 @@ CSS for the CONTACT section
 
   .about, .work, .education, .contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
   }
 
   .educationContainer, .workContainer, .contactContainer {

@@ -32,7 +32,7 @@ export default class Work extends React.Component {
              <Bubble className='workBubble' text='HTML5' />
              <Bubble className='workBubble' text='CSS3' />
              <Bubble className='largeWorkBubble' text='JAVASCRIPT' />
-             <Bubble className='largeWorkBubble' text='REACT ROUTER' />
+             <Bubble className='largeWorkBubble reactRouter' text='REACT ROUTER' />
           </div>
           <hr />
           <div className='appSection'>
@@ -40,7 +40,7 @@ export default class Work extends React.Component {
             <h4>Full-stack Software Engineer</h4>
             <p>App to make planning your day easier and more fun!</p>
             <Bubble className='workBubble' text='REACT' />
-            <Bubble className='largeWorkBubble' text='REACT ROUTER' />
+            <Bubble className='largeWorkBubble reactRouter' text='REACT ROUTER' />
             <Bubble className='workBubble' text='HTML5' />
             <Bubble className='workBubble' text='CSS3' />
             <Bubble className='workBubble' text='NodeJS' />
