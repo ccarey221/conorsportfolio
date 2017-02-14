@@ -225,11 +225,12 @@ CSS for the CONTACT section
 
   .aboutContainer {
     padding: 20px;
+    padding-top: 50px;
     line-height: 60px;
   }
 
   .about {
-    height: 450px;
+    height: 475px;
     margin-top: 140px;
   }
 
@@ -266,11 +267,12 @@ CSS for the CONTACT section
 
   .aboutContainer {
     padding: 20px;
+    padding-top: 50px;
     line-height: 60px;
   }
 
   .about {
-    height: 450px;
+    height: 475px;
     margin-top: 140px;
   }
 
