@@ -204,6 +204,11 @@ CSS for the CONTACT section
 }
 
 @media only screen and (max-width: 950px) {
+  img {
+    height: 30px;
+    width: 40px;
+  }
+
   .about, .work, .education, .contact {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
@@ -213,25 +218,28 @@ CSS for the CONTACT section
     margin: 48px 5%;
   }
 
-  .about {
-    height: 300px;
-    margin-top: 90px;
-  }
   .aboutContainer {
     padding: 20px;
   }
-}
 
-@media only screen and (max-width: 950px) {
   .about {
     height: 300px;
     margin-top: 140px;
+  }
+
+  .initialLine {
+    font-size: 30px;
   }
 }
 
 
 
 @media only screen and (max-device-width: 628px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
   .about {
     height: 300px;
     margin-top: 140px;
@@ -239,7 +247,7 @@ CSS for the CONTACT section
 
   .about, .work, .education, .contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.9em;
+    font-size: 1.5em;
   }
 
   .educationContainer, .workContainer, .contactContainer {
