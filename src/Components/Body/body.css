@@ -204,8 +204,13 @@ CSS for the CONTACT section
 }
 
 @media only screen and (max-width: 950px) {
+  .iconRow {
+    padding: 0 10%;
+    }
+
   .iconRow a img {
     width: 40px;
+    padding: 0 30px;
   }
 
   .about, .work, .education, .contact {
@@ -234,8 +239,15 @@ CSS for the CONTACT section
 
 
 @media only screen and (max-device-width: 628px) {
+
+
+  .iconRow {
+    padding: 0 10%;
+    }
+
   .iconRow a img {
     width: 40px;
+    padding: 0 30px;
   }
 
   .about, .work, .education, .contact {
