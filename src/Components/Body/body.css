@@ -234,14 +234,8 @@ CSS for the CONTACT section
 
 
 @media only screen and (max-device-width: 628px) {
-  .iconRow a {
-    height: 40px;
+  .iconRow a img {
     width: 40px;
-  }
-
-  .about {
-    height: 300px;
-    margin-top: 140px;
   }
 
   .about, .work, .education, .contact {
@@ -253,11 +247,16 @@ CSS for the CONTACT section
     margin: 48px 5%;
   }
 
-  .about {
-    height: 300px;
-    margin-top: 80px;
-  }
   .aboutContainer {
     padding: 20px;
+  }
+
+  .about {
+    height: 300px;
+    margin-top: 140px;
+  }
+
+  .initialLine {
+    font-size: 30px;
   }
 }
