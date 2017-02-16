@@ -209,18 +209,18 @@ CSS for the CONTACT section
     }
 
   .iconRow a img {
-    width: 40px;
-    padding: 0 30px;
+    width: 20px;
+    padding: 0 10px;
   }
 
   .about, .work, .education, .contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.4em;
+    font-size: 1.3em;
   }
 
   .educationContainer, .workContainer, .contactContainer {
     margin: 48px 5%;
-    line-height: 50px;
+    line-height: 40px;
   }
 
   .aboutContainer {
@@ -230,7 +230,7 @@ CSS for the CONTACT section
   }
 
   .about {
-    height: 475px;
+    height: 335px;
     margin-top: 140px;
   }
 
@@ -239,7 +239,7 @@ CSS for the CONTACT section
   }
 
   .initialLine {
-    font-size: 60px;
+    font-size: 24px;
   }
 }
 
