@@ -12,6 +12,7 @@
   font-weight: bold;
   z-index: 2;
   letter-spacing: .1em;
+  -webkit-backface-visibility: hidden;
 }
 
 .chapters {
