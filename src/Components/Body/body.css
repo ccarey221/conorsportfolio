@@ -155,6 +155,20 @@ CSS for the WORK section
   margin-bottom: 30px;
 }
 
+.eduApp {
+  border-bottom: 1px solid rgba(0,0,0,0.22);
+  padding-bottom: 10px;
+}
+
+.eduApp:nth-child(2) {
+  padding-bottom: 40px;
+}
+
+.eduApp:last-child {
+  border: none;
+  padding-bottom: 0px;
+}
+
 /************************
 
 CSS for the CONTACT section
@@ -274,6 +288,10 @@ CSS for the CONTACT section
   .about {
     height: 475px;
     margin-top: 140px;
+  }
+
+  .educationContainer h3 {
+    padding-top: 20px;
   }
 
   .contactContainer p {
