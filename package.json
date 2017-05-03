@@ -2,6 +2,7 @@
   "name": "awesomeApp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.conorcarey.com",
   "devDependencies": {
     "autoprefixer": "6.4.1",
     "babel-core": "6.14.0",
