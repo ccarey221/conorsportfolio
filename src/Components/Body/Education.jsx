@@ -9,7 +9,7 @@ export default class Education extends React.Component {
         <div className='educationContainer'>
           <div className='appSection eduApp'>
             <h2>RESUME</h2>
-            <div className='appSection eduApp'>
+            <div className='appSection eduApp experience'>
               <h3>EXPERIENCE</h3>
               <h4>Grove Collaborative</h4>
               <p>Abstracted payment code to support multiple payment systems</p>

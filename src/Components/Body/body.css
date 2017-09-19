@@ -97,6 +97,10 @@ CSS for the EDUCATION section
   margin-bottom: 20px
 }
 
+.experience > p {
+  margin-bottom: 10px;
+}
+
 /************************
 
 CSS for the WORK section
