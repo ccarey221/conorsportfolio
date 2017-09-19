@@ -9,6 +9,18 @@ export default class Education extends React.Component {
         <div className='educationContainer'>
           <div className='appSection eduApp'>
             <h2>RESUME</h2>
+            <div className='appSection eduApp'>
+              <h3>EXPERIENCE</h3>
+              <h4>Grove Collaborative</h4>
+              <p>Abstracted payment code to support multiple payment systems</p>
+              <p>Integrated PayPal which increased user acquisition by 2%</p>
+              <p>Built user flow which increased onboarding retention by 10%</p>
+              <p>Designed re-usable components to simplify UI consistency</p>
+              <p>Created content management system for marketing pages</p>
+              <p>Developed company’s career page</p>
+              <p>Handled analytics integrations for Google, Facebook, Taboola, Pinterest, and more</p>
+              <p>Participated in interviewing new candidates</p>
+            </div>
             <h3>EDUCATION</h3>
             <h4>Hack Reactor</h4>
             <p>Advanced Software Engineering Immersive Program<br/>
@@ -29,15 +41,6 @@ export default class Education extends React.Component {
             <Bubble text='GIT' />
             <Bubble className='mediumBubble' text='PYTHON' />
             <Bubble className='mediumBubble' text='JQUERY' />
-          </div>
-          <div className='appSection eduApp'>
-            <h3>EXPERIENCE</h3>
-            <h4>MeterAid</h4>
-            <p>Worked directly with the CEO to design Python
-            scripts to collect and organize data from remote
-            Raspberry Pi Computers</p>
-            <p>Set up notification system to share when a meter
-            maid approached user's car location</p>
           </div>
           <div className='appSection eduApp'>
             <h3>LEADERSHIP</h3>

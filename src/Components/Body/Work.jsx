@@ -34,27 +34,6 @@ export default class Work extends React.Component {
              <Bubble className='largeWorkBubble' text='JAVASCRIPT' />
              <Bubble className='largeWorkBubble reactRouter' text='REACT ROUTER' />
           </div>
-          <hr />
-          <div className='appSection'>
-            <h3>DayPlan</h3>
-            <h4>Full-stack Software Engineer</h4>
-            <p>App to make planning your day easier and more fun!</p>
-            <Bubble className='workBubble' text='REACT' />
-            <Bubble className='largeWorkBubble reactRouter' text='REACT ROUTER' />
-            <Bubble className='workBubble' text='HTML5' />
-            <Bubble className='workBubble' text='CSS3' />
-            <Bubble className='workBubble' text='NodeJS' />
-          </div>
-          <div className='appSection'>
-            <h3>Found!</h3>
-            <h4>Full-stack Software Engineer</h4>
-            <p>Crowdsourcing lost and found app.</p>
-            <Bubble className='mediumWorkBubble' text='ANGULAR' />
-            <Bubble className='workBubble' text='HTML5' />
-            <Bubble className='workBubble' text='CSS3' />
-            <Bubble className='workBubble' text='NodeJS' />
-            <Bubble className='workBubble' text='MySQL' />
-          </div>
           <p>... and of course, this page!</p>
         </div>
       </div>
