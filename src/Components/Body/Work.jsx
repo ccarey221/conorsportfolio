@@ -7,19 +7,19 @@ export default class Work extends React.Component {
     return (
       <div className='work'>
         <div className='workContainer'>
+          <h2>WORK</h2>
           <div className='appSection'>
-            <h2>WORK</h2>
-            <a target='_blank' href='http://trendwave.herokuapp.com/'><h3>Trendwaves</h3></a>
+            <a target='_blank' href='https://www.grove.co/'><h3>Grove Collaborative</h3></a>
             <h4>Full-stack Software Engineer</h4>
-            <p>Real-time global trend and sentiment analysis. Visuals built using D3 
-            provide easy to understand breakdown of trend data.</p>
-            <Bubble className='workBubble' text='REACT' />
-            <Bubble className='workBubble' text='REDUX' />
-            <Bubble className='workBubble' text='D3' />
+            <p>E-commerce platform for earth-friendly products (2nd full-time engineer, now 35 full-time)</p>
             <Bubble className='largeWorkBubble' text='JAVASCRIPT' />
+            <Bubble className='workBubble' text='VUE' />
+            <Bubble className='largeWorkBubble' text='BACKBONE' />
+            <Bubble className='largeWorkBubble' text='MARIONETTE' />
+            <Bubble className='workBubble' text='PYTHON' />
+            <Bubble className='workBubble' text='DJANGO' />
             <Bubble className='workBubble' text='HTML5' />
             <Bubble className='workBubble' text='CSS3' />
-            <Bubble className='workBubble' text='NodeJS' />
           </div>
           <div className='appSection'>
             <a target='_blank' href='http://www.emblemar.com'><h3>Emblem</h3></a>
