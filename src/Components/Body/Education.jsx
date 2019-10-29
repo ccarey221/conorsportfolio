@@ -12,7 +12,7 @@ export default class Education extends React.Component {
             <div className='appSection eduApp experience'>
               <h3>EXPERIENCE</h3>
               <h4>Grove Collaborative</h4>
-              <strong>Software Engineer II / Acquisition Pod Lead</strong><span>(January 2019 - Present)</span>
+              <strong>Software Engineer II / Acquisition Pod Lead</strong> <span>(January 2019 - Present)</span>
               <ul>
                 <li>Hit all OKRs  owned by the acquisition team (3 full-stack engineers) since becoming pod lead</li>
                 <li>Increased first-purchase conversion rate by 10%</li>
@@ -20,12 +20,12 @@ export default class Education extends React.Component {
                 <li>Achieved high velocity experimentation through strong partnerships with Product, Design, and Marketing and increased new user acquisition rates (ran 10 experiments in Q3 of 2019)</li>
                 <li>Instituted new team-wide processes like team retrospectives and planning poker that made sprint planning more effective</li>
               </ul>
-              <strong>Software Engineer I</strong><span>(January 2018 - January 2019)</span>
+              <strong>Software Engineer I</strong> <span>(January 2018 - January 2019)</span>
               <ul>
                 <li>Built an end-to-end content management system for the Merchandising and Marketing teams to curate marketing and presale pages without additional engineering resources (pages used by over 100,000 customers per year)</li>
                 <li>Implemented the site’s first product filtering system that dynamically handled filtering 500+ items across 50+ attributes</li>
               </ul>
-              <strong>Associate Software Engineer</strong><span>(March 2017 - January 2018)</span>
+              <strong>Associate Software Engineer</strong> <span>(March 2017 - January 2018)</span>
               <ul>
                 <li>Extended payment system to include PayPal, which increased user acquisition rate by 2%</li>
                 <li>Revamped new user onboarding flow, which increased onboarding retention by 10%</li>
