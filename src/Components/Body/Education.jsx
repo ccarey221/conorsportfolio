@@ -41,15 +41,16 @@ export default class Education extends React.Component {
           </div>
           <div className='appSection eduApp'>
             <h3>SKILLS</h3>
-            <Bubble text='REACT' />
-            <Bubble text='REDUX' />
+            <Bubble text='VUE' />
+            <Bubble className='largeBubble' text='BACKBONE' />
             <Bubble className='largeBubble' text='JAVASCRIPT' />
             <Bubble text='HTML5' />
             <Bubble text='CSS3' />
-            <Bubble text='NodeJS' />
-            <Bubble text='MySQL' />
-            <Bubble text='GIT' />
             <Bubble className='mediumBubble' text='PYTHON' />
+            <Bubble className='mediumBubble' text='DJANGO' />
+            <Bubble text='REACT' />
+            <Bubble text='NodeJS' />
+            <Bubble text='GIT' />
             <Bubble className='mediumBubble' text='JQUERY' />
           </div>
           <div className='appSection eduApp'>
