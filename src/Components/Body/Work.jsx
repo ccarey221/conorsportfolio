@@ -9,6 +9,41 @@ export default class Work extends React.Component {
         <div className='workContainer'>
           <h2>WORK</h2>
           <div className='appSection'>
+            <a target='_blank' href='https://www.getmiddlemile.com/'><h3>Middle Mile</h3></a>
+            <h4>Technical Cofounder</h4>
+            <p>Distributed fulfillment platform</p>
+            <Bubble className='largeWorkBubble' text='REACT NATIVE' />
+            <Bubble className='workBubble' text='REACT' />
+            <Bubble className='workBubble' text='NodeJS' />
+            <Bubble className='workBubble' text='AWS' />
+            <Bubble className='workBubble' text='CSS' />
+            <Bubble className='workBubble' text='HTML' />
+            <Bubble className='workBubble' text='LIQUID' />
+            <Bubble className='largeWorkBubble' text='SERVERLESS' />
+            <Bubble className='largeWorkBubble' text='INTEGRATIONS' />
+          </div>
+          <div className='appSection'>
+            <a target='_blank' href='https://www.goserv.com/'><h3>ServCommerce</h3></a>
+            <h4>Lead Engineer</h4>
+            <p>All-in-one platform for home service professionals</p>
+            <Bubble className='largeWorkBubble' text='REACT NATIVE' />
+            <Bubble className='workBubble' text='SWIFT' />
+            <Bubble className='workBubble' text='NodeJS' />
+            <Bubble className='workBubble' text='NextJS' />
+            <Bubble className='workBubble' text='CSS' />
+            <Bubble className='workBubble' text='HTML' />
+            <Bubble className='largeWorkBubble' text='SERVERLESS' />
+          </div>
+          <div className='appSection'>
+            <a target='_blank' href='https://www.betterment.com/'><h3>Betterment</h3></a>
+            <h4>Flutter Mobile Engineer</h4>
+            <p>Investing platform for hands-off, long-term investing</p>
+            <Bubble className='workBubble' text='SWIFT' />
+            <Bubble className='largeWorkBubble' text='FLUTTER' />
+            <Bubble className='workBubble' text='RUBY' />
+            <Bubble className='workBubble' text='RAILS' />
+          </div>
+          <div className='appSection'>
             <a target='_blank' href='https://www.grove.co/'><h3>Grove Collaborative</h3></a>
             <h4>Full-stack Software Engineer</h4>
             <p>E-commerce platform for earth-friendly products (2nd full-time engineer, now 35 full-time)</p>

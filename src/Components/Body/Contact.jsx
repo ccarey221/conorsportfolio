@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
       <div className='contact'>
         <div className='contactContainer'>
           <h2>CONTACT</h2>
-          <p className='initialLine'>Currently available for full-time positions in San Francisco or remote work.</p>
+          <p className='initialLine'>Currently available for full-time positions in New York or remote work.</p>
            <p>Send a message to <a href='mailto:cbowlercarey@gmail.com'>cbowlercarey@gmail.com</a></p>
            <div className='me'>
              <img className='myPic' src={selfie} role='presentation' />

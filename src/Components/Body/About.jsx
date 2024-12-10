@@ -10,7 +10,7 @@ export default class About extends React.Component {
     return (
       <div className='about'>
         <div className='aboutContainer'>
-          <p className='initialLine'>Hi! I'm a Full-stack developer based in San Francisco, CA.</p>
+          <p className='initialLine'>Hi! I'm a Full-stack developer based in New York, NY.</p>
           <p>Interested in working together? <a href='mailto:cbowlercarey@gmail.com'>Email Me!</a></p>
           <div className='iconRow'>
             <a href='mailto:cbowlercarey@gmail.com'><img src={emailIcon} role='presentation' /></a>
